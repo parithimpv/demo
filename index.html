@@ -1,0 +1,211 @@
+    1  apt install docker.io
+    2  apt update
+    3  apt install docker.io
+    4  docker
+    5  docker info
+    6  docker version
+    7  docker run -it -p 8080:80 -d nginx
+    8  docker ps
+    9  docker ps -a
+   10  vi Dockerfile
+   11  docker build . test
+   12  docker build . -t test
+   13  docker images
+   14  docker ps
+   15  docker tag 9140108b62dc parithimpv/new-repo:1
+   16  docker push parithimpv/new-repo:1
+   17  docker login
+   18  docker push parithimpv/new-repo:1
+   19  docker ps
+   20  docker images
+   21  docker status
+   22  docker stats
+   23  docker images
+   24  docker run -it -p 8080:80 -p mysql
+   25  docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+   26  docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:latest
+   27  docker images
+   28  docker ps
+   29  docker history fa228ce17965
+   30  docker images
+   31  docker history e1d7dc9731da
+   32  apt update
+   33  apt install nfs-kernel-server
+   34  cd var/lib/apt/lists
+   35  ls
+   36  cd /var/lib/apt/
+   37  cd lists
+   38  cat /etc/exports
+   39  cd nano/etc/exports
+   40  vi /etc/exports
+   41  vi /etc/exports/
+   42  vi /etc/exports
+   43  exportsfs -rv
+   44  exportfs -rv
+   45  exportsfs -rv
+   46  vi exportfs -rv
+   47  exportsfs -rv
+   48  systemctl nfs-server status
+   49  systemctl status nfs-server
+   50  clear
+   51  sudo mkdir nfs/kubedata
+   52  mkdir /srv/nfs/kubedata
+   53  sudo chmod -R 777 /srv/nfs/kubedata
+   54  chmod -R 777 /srv/nfs
+   55  sudo chmod -R 777 /srv/nfs
+   56  vi etc/exports
+   57  sudo vi /etc/exports
+   58  mkdir srv/nfs/kubedata
+   59  chmod -R 777
+   60  chmod -R 777 srv/nfs
+   61  sudo mkdir -p /srv/nfs/kubedata
+   62  sudo chmod -R 777 /srv/nfs
+   63  cd srv
+   64  ls
+   65  sudo exportfs -rav
+   66  sudo exportfs -v
+   67  1) curl https://raw.githubusercontent.com/helm/helm/master/scripts/get
+   68  helm 3 > get_helm.sh1) curl https://raw.githubusercontent.com/helm/helm/master/scripts/get
+   69  helm 3 > get_helm.sh
+   70  1) curl https://raw.githubusercontent.com/helm/helm/master/scripts/get
+   71  curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
+   72  chmod 700 get_helm.sh
+   73  cd /etc
+   74  helm
+   75  cd .
+   76  cd ..
+   77  helm
+   78  ./get_helm.sh
+   79  helm version
+   80  curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
+   81  chmod 700 get_helm.sh
+   82  ./get_helm.sh
+   83  helm
+   84  ls
+   85  cd etc
+   86  ls
+   87  cd ..
+   88  helm version
+   89  hem search hub tomcat
+   90  cd /etc
+   91  hem search hub tomcat
+   92  helm search hub tomcat
+   93  helm repo add stable https://charts.helm.sh/stable
+   94  gelm repo
+   95  helm repo
+   96  helm repo list
+   97  helm search repo stable
+   98  helm search repo stable --less
+   99  helm search repo stable --short
+  100  helm repo list
+  101  helm search repo tomcat
+  102  helm inspect values stable/jenkins --jenkins.values
+  103  helm inspect values stable/jenkins >jenkins.values
+  104  vi jenkins.values
+  105  helm install jenkins stable/jenkins --values jenkins.values
+  106  ls
+  107  ls 
+  108  ls -lart
+  109  helm install jenkins stable/jenkins --values jenkins.values
+  110  helm repo list
+  111  helm repo add stable https://charts.helm.sh/stable
+  112  helm repo update
+  113  helm install jenkins stable/jenkins --values jenkins.values
+  114  service docker status
+  115  docker login
+  116  parithimpv
+  117  mailusparithipv@gmail.com
+  118  parithimpv
+  119  docker login
+  120  vi dockerfile
+  121  docker build .
+  122  docker build -t myapp.
+  123  docker build -t myapp .
+  124  ls -lrt
+  125  rm -rf Dockerfile
+  126  ls
+  127  docker build .
+  128  vi Dockerfile
+  129  docker build -t mywork.
+  130  docker build -t mywork .
+  131  docker images
+  132  docker ps
+  133  docker ps -a
+  134  docker images
+  135  docker ps -a
+  136  docker restart c152e0d4b53d
+  137  docker ps
+  138  docker images
+  139  docker ps -a
+  140  docker images
+  141  docker image ls
+  142  docker run -it 80:8080 tomcat
+  143  docker login
+  144  docker run -it 80:8080 tomcat
+  145  docker pull
+  146  docker ush
+  147  docker push
+  148  docker pull parithimpv/new-repo
+  149  docker pull parithimpv/new-repo:1
+  150  docker images
+  151  docker pull parithimpv/new-repo:ubuntu
+  152  docker images ls
+  153  docker images
+  154  ls
+  155  rm -rf dockerfile
+  156  ls
+  157  docker build -t mywork .:1
+  158  docker build -t mywork .
+  159  docker tag parithimpv/mywork
+  160  docker images
+  161  ls
+  162  cat Dockerfile
+  163  docker build .
+  164  docker images
+  165  docker ps
+  166  docker ps -a
+  167  docker images
+  168  docker run -it 80:8080 ubuntu
+  169  docker login
+  170  docker run -it 80:8080 ubuntu
+  171  docker run -it 81:8080 ubuntu
+  172  docker run -it ubuntu
+  173  docker system df
+  174  docker top
+  175  docker ps
+  176  docker run -it -p 8080:80 -d httpd
+  177  docker ps
+  178  docker top httpd
+  179  docker top 6428fc6f96ef
+  180  docker images
+  181  docker push parithimpv/new-repo mysql
+  182  docker run -it -d ubuntu:latest
+  183  docker ps
+  184  ls
+  185  docker build . -t mywork
+  186  docker images
+  187  docker run -d -p 5000:5000 --name registry registry:2
+  188  docker tag 9140108b62dc 10.128.0.51:5000/1
+  189  docker run -it -p 8084:80 10.128.0.51:5000/1
+  190  docker images
+  191  docker ps
+  192  docker run -it -p 8084:80 10.128.0.51:5000/httpd
+  193  docker run -it -p 8085:80 10.128.0.51:5000/httpd
+  194  ls
+  195  docker volume ls
+  196  ls
+  197  docker volume ls
+  198  find / -name file1
+  199  docker ps
+  200  docker ps -a 
+  201  date
+  202  docker volume create vttask
+  203  docker run -it --name vtwork -v vttask:/date01 ngnix /bin/bash
+  204  docker run -it --name vtwork -v vttask:/date01 nginx /bin/bash
+  205  find / -name file8
+  206  lsblk
+  207  df -k
+  208  df -h
+  209  whoami
+  210  du -h
+  211  history > index.html
